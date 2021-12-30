@@ -1,0 +1,66 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:units="clr-namespace:CarSelling.UI.Units">
+
+    <SolidColorBrush x:Key="PrimaryNormalStyle" Color="#AAFFFFFF"/>
+    <SolidColorBrush x:Key="PrimaryOverStyle" Color="#FFFFFFFF"/>
+
+    <SolidColorBrush x:Key="BackgroundNormalStyle" Color="#00000000"/>
+    <SolidColorBrush x:Key="BackgroundOverStyle" Color="#44000000"/>
+
+    <Style TargetType="{x:Type units:IconButton}">
+        <Setter Property="Background" Value="{StaticResource BackgroundNormalStyle}"/>
+        <Setter Property="Width" Value="48"/>
+        <Setter Property="Height" Value="48"/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="BorderBrush" Value="{StaticResource PrimaryNormalStyle}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type units:IconButton}">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}">
+                        <Viewbox>
+                            <Canvas Width="24" Height="24">
+                                <ContentPresenter ContentSource="Content"/>
+                            </Canvas>
+                        </Viewbox>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{StaticResource BackgroundOverStyle}"/>
+                            <Setter Property="BorderBrush" Value="{StaticResource PrimaryOverStyle}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="{x:Type units:PreviewButton}" BasedOn="{StaticResource {x:Type units:IconButton}}">
+        <Setter Property="ContentTemplate">
+            <Setter.Value>
+                <DataTemplate>
+                    <Path Fill="{Binding RelativeSource={RelativeSource AncestorType=units:IconButton}, Path=BorderBrush}"
+                          Data="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"/>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="{x:Type units:NextButton}" BasedOn="{StaticResource {x:Type units:IconButton}}">
+        <Setter Property="ContentTemplate">
+            <Setter.Value>
+                <DataTemplate>
+                    <Path Fill="{Binding RelativeSource={RelativeSource AncestorType=units:IconButton}, Path=BorderBrush}"
+                          Data="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/>
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
