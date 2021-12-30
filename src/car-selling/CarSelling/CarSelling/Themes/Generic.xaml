@@ -3,6 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/CarSelling;component/Themes/Units/IconButton.xaml"/>
+        <ResourceDictionary Source="/CarSelling;component/Themes/Units/SpecificationList.xaml"/>
         <ResourceDictionary Source="/CarSelling;component/Themes/Units/HeadlinePanel.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

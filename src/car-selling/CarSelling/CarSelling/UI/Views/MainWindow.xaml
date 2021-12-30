@@ -11,6 +11,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <units:HeadlinePanel/>
+        <units:HeadlinePanel Grid.Row="0"/>
+        <units:SpecificationList Grid.Row="1"/>
     </Grid>
 </Window>

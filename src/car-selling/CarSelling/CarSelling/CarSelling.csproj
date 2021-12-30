@@ -3,19 +3,30 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Images\wallpaper.jpg" />
+    <None Remove="Images\Audi.jpg" />
+    <None Remove="Images\Tesla.jpg" />
+    <None Remove="SellingList.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Images\wallpaper.jpg" />
+    <EmbeddedResource Include="SellingList.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\Audi.jpg" />
+    <Resource Include="Images\Tesla.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Themes\Units\SpecificationList.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\Units\IconButton.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
       <SubType>Designer</SubType>

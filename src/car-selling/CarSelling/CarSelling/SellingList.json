@@ -1,0 +1,48 @@
+[
+  {
+    "Sort": 0,
+    "CarName": "2021 TESLA MODEL 3 Performance",
+    "ModelName": "Tesla",
+    "Options": [
+      {
+        "OptionName": "Odometer",
+        "OptionValue": 129039
+      },
+      {
+        "OptionName": "Transmission",
+        "OptionValue": "Autometic"
+      },
+      {
+        "OptionName": "FuelType",
+        "OptionValue": "Electronic"
+      },
+      {
+        "OptionName": "DriveType",
+        "OptionValue": "Front Wheel"
+      }
+    ]
+  },
+  {
+    "Sort": 1,
+    "CarName": "2021 Audi e-Tron GT",
+    "ModelName": "Audi",
+    "Options": [
+      {
+        "OptionName": "Odometer",
+        "OptionValue": 231241
+      },
+      {
+        "OptionName": "Transmission",
+        "OptionValue": "Autometic"
+      },
+      {
+        "OptionName": "FuelType",
+        "OptionValue": "Electronic"
+      },
+      {
+        "OptionName": "DriveType",
+        "OptionValue": "Front Wheel"
+      }
+    ]
+  }
+]
