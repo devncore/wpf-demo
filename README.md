@@ -4,4 +4,4 @@
 
 | 앱 | 관련 링크 |
 |:---|:---------|
-| CarSelling | [닷넷데브 질문 중..](https://forum.dotnetdev.kr/t/wpf/2448) |
+| CarSelling | [닷넷데브 질문](https://forum.dotnetdev.kr/t/wpf/2448) |
