@@ -18,7 +18,7 @@
                             </Grid.RowDefinitions>
                             <units:Header />
                             <Grid Grid.Row="1" Background="#B2C7D9"/>
-                            <Grid Grid.Row="2" Height="94" />
+                            <units:TextInput Grid.Row="2"/>
                         </Grid>
                     </Border>
                 </ControlTemplate>
