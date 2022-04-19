@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Kakaotalk;component/Themes/Units/ProfileButton.xaml"/>
+        <ResourceDictionary Source="/Kakaotalk;component/Themes/Units/Header.xaml"/>
+        <ResourceDictionary Source="/Kakaotalk;component/Themes/Views/MainWindow.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
