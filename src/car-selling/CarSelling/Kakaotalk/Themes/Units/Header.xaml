@@ -13,6 +13,26 @@
                                 <ColumnDefinition Width="auto"/>
                             </Grid.ColumnDefinitions>
                             <units:ProfileButton/>
+                            <Grid Grid.Column="1" Margin="10 0 0 0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <TextBlock Text="김혁인"
+                                           FontWeight="Bold"
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Left"
+                                           FontSize="11.5"
+                                           Foreground="#4A4C4E"/>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Grid.Row="1">
+                                    <units:IconButton Tag="case" IsEnabled="False"/>
+                                    <units:IconButton Tag="magnify" IsEnabled="False"/>
+                                </StackPanel>
+                            </Grid>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Grid.Column="2">
+                                <units:IconButton Tag="bell"/>
+                                <units:IconButton Tag="menu" Margin="4 0 0 0"/>
+                            </StackPanel>
                         </Grid>
                     </Border>
                 </ControlTemplate>
