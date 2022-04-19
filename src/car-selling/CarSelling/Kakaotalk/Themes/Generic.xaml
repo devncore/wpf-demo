@@ -3,6 +3,7 @@
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/Kakaotalk;component/Themes/Units/SendButton.xaml"/>
         <ResourceDictionary Source="/Kakaotalk;component/Themes/Units/IconButton.xaml"/>
+        <ResourceDictionary Source="/Kakaotalk;component/Themes/Units/BorderIconButton.xaml"/>
         <ResourceDictionary Source="/Kakaotalk;component/Themes/Units/ProfileButton.xaml"/>
         <ResourceDictionary Source="/Kakaotalk;component/Themes/Units/Header.xaml"/>
         <ResourceDictionary Source="/Kakaotalk;component/Themes/Units/TextInput.xaml"/>

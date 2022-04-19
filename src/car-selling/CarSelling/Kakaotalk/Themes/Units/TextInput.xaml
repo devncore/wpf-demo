@@ -22,9 +22,13 @@
                                         Margin="10 0 0 0"
                                         />
                             </Grid>
-                            <Grid Grid.Row="1" Height="15" Background="Red">
-                                
-                            </Grid>
+                            <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0 4 0 0">
+                                <units:IconButton Tag="smile"/>
+                                <units:IconButton Tag="clip" Margin="10 0 0 0"/>
+                                <units:IconButton Tag="phone" Margin="10 0 0 0"/>
+                                <units:IconButton Tag="calendar" IsEnabled="False" Margin="10 0 0 0"/>
+                                <units:IconButton Tag="capture" IsEnabled="False" Margin="10 0 0 0"/>
+                            </StackPanel>
                         </Grid>
                     </Border>
                 </ControlTemplate>

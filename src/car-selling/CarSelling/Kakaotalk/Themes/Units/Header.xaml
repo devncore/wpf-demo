@@ -25,13 +25,13 @@
                                            FontSize="11.5"
                                            Foreground="#4A4C4E"/>
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Grid.Row="1">
-                                    <units:IconButton Tag="case" IsEnabled="False"/>
-                                    <units:IconButton Tag="magnify" IsEnabled="False"/>
+                                    <units:BorderIconButton Tag="case" IsEnabled="False"/>
+                                    <units:BorderIconButton Tag="magnify" IsEnabled="False"/>
                                 </StackPanel>
                             </Grid>
                             <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Grid.Column="2">
-                                <units:IconButton Tag="bell"/>
-                                <units:IconButton Tag="menu" Margin="4 0 0 0"/>
+                                <units:BorderIconButton Tag="bell"/>
+                                <units:BorderIconButton Tag="menu" Margin="4 0 0 0"/>
                             </StackPanel>
                         </Grid>
                     </Border>
